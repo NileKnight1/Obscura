@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obscura - Password Encryption</title>
+    <link rel="stylesheet" href="master.css" />
+</head>
+
+<body>
+    <button class="btn rb" onclick="location.href='caesar.html'">Caesar ➡</button>
+    <main>
+        <h1>Obscura</h1>
+
+        <textarea id="ipt" placeholder="I'm encrypted ..."></textarea>
+
+        <div class="ps">
+            <label for="ps">Password</label>
+            <input type="text" id="ps" maxlength="26" minlength="26" />
+            <label id="cpp" class="cpp">Copy</label>
+        </div>
+
+        <div class="btns">
+            <button id="enb">Encode</button>
+            <button id="deb">Decode</button>
+        </div>
+
+        <button id="cpo">Copy</button>
+
+        <pre id="opt" class="opt"></pre>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

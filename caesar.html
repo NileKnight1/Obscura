@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Obscura - Caesar Cipher</title>
+  <link rel="stylesheet" href="master.css" />
+</head>
+
+<body>
+  <button class="btn lb" onclick="location.href='index.html'">⬅ Custom</button>
+  <main>
+    <h1>Obscura</h1>
+
+    <textarea id="ipt" placeholder="I'm encrypted ..."></textarea>
+
+    <div class="cc">
+      <label for="cc">Shift:</label>
+      <input type="number" id="cc" value="1" min="1" />
+    </div>
+
+    <div class="btns">
+      <button id="enb">Encode</button>
+      <button id="deb">Decode</button>
+    </div>
+
+    <button id="cpo">Copy</button>
+
+    <pre id="opt" class="opt"></pre>
+  </main>
+
+  <script src="caesar.js"></script>
+</body>
+
+</html>
